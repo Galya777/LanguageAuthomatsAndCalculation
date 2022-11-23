@@ -139,11 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ALists.cpp" />
     <ClCompile Include="Authomat.cpp" />
+    <ClCompile Include="Commands.cpp" />
     <ClCompile Include="Non-DeterministicFiniteAutomaton.cpp" />
+    <ClCompile Include="Operations.cpp" />
+    <ClCompile Include="RegexUtils.cpp" />
+    <ClCompile Include="StringHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ALists.h" />
     <ClInclude Include="Authomat.h" />
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="Operations.h" />
+    <ClInclude Include="RegexUtils.h" />
+    <ClInclude Include="StringHelper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
